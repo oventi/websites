@@ -1,0 +1,143 @@
+@use 'node_modules/danta-techie-one-page/css/index';
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap");
+
+html {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+}
+
+a {
+  color: #778e46;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+header {
+  margin: 1.5em auto 2em auto;
+
+  .title_subtitle {
+    margin-bottom: 2em;
+  }
+
+  h1.title {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+
+  p.subtitle {
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: 500;
+  }
+}
+
+main section {
+  margin-bottom: 2em;
+
+  h2 {
+    font-size: 1.25em;
+  }
+
+  &#about {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin: 0 0 1em 0;
+      }
+    }
+  }
+
+  &#connect {
+    a.devicon_link {
+      font-size: 2em;
+    }
+  }
+}
+
+footer {
+  margin-bottom: 1.5em;
+}
+
+@media (min-width: 576px) {
+  header {
+    margin: 2.5em auto 2em auto;
+
+    .title_subtitle {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  main section {
+    &#about {
+      flex: 65%;
+      margin-right: 5%;
+    }
+    &#connect {
+      flex: 30%;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    margin: 3.5em auto 2.5em auto;
+
+    .title_subtitle {
+      margin-bottom: 0;
+    }
+  }
+
+  main section {
+    &#about {
+      flex: 70%;
+    }
+    &#connect {
+      flex: 21%;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  header {
+    h1.title {
+      font-size: 2em;
+    }
+
+    p.subtitle {
+      font-size: 1.5em;
+    }
+  }
+
+  main section {
+    font-size: 1.1em;
+
+    &#connect {
+      a.devicon_link {
+        font-size: 2.5em;
+      }
+    }
+
+    &#skills {
+      a.devicon_link {
+        font-size: 3.25em;
+      }
+    }
+  }
+
+  footer {
+    font-size: 1.1em;
+  }
+}

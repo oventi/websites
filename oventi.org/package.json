@@ -1,0 +1,15 @@
+{
+  "name": "oventi-website",
+  "version": "0.0.1",
+  "license": "GPL-3.0",
+  "private": true,
+  "scripts": {
+    "dev": "danta --dev --theme danta-techie-one-page",
+    "build": "danta --build --theme danta-techie-one-page"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.3.2",
+    "danta": "https://github.com/oventi/danta#3.3.0",
+    "danta-techie-one-page": "https://github.com/oventi/danta_themes#techie_one_page"
+  }
+}

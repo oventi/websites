@@ -18,6 +18,7 @@ export async function get_data(stage) {
             <li>Tauiwi Latino techie living in Te Whanganui-a-Tara, Aotearoa (Wellington, New Zealand).</li>
             <li>
               Tech Lead at <a href="https://actionstation.org.nz/" target="external">ActionStation</a>,
+              Coordinator at <a href="https://christchurchcall.network/" target="external">CCAN</a>,
               Trustee at <a href="https://migrantsaotearoa.org.nz/" target="external">Migrants Aotearoa</a>.
             </li>
             <li>Looking to collaborate on <strong>social impact projects</strong> and <strong>migrant support & rights</strong>.</li>

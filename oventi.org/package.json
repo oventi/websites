@@ -12,6 +12,7 @@
     "@parcel/transformer-sass": "2.3.2",
     "catalystcloud": "https://github.com/oventi/catalystcloud",
     "danta": "https://github.com/oventi/danta#3.3.0",
-    "danta-techie-one-page": "https://github.com/oventi/danta_themes#techie_one_page"
+    "danta-techie-one-page": "https://github.com/oventi/danta_themes#techie_one_page",
+    "dotenv-json": "^1.0.0"
   }
 }

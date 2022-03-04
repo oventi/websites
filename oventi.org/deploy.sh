@@ -2,10 +2,13 @@
 
 # deploy the website to Catalyst Cloud's object container oventi.org
 
-BUCKET=https://object-storage.nz-hlz-1.catalystcloud.io/oventi.org
+CONTAINER=https://object-storage.nz-hlz-1.catalystcloud.io/oventi.org
 
-yarn build
+echo "** DEPLOYMENT STARTED **"
 
-yarn cc containers --bucket $BUCKET --empty
+yarn build > /dev/null
 
-yarn cc containers --bucket $BUCKET --put-files ./dist
+yarn cc containers empty --container $CONTAINER
+yarn cc containers put_files --container $CONTAINER --folder ./dist
+
+echo "** DEPLOYMENT DONE **"

@@ -18,10 +18,9 @@ export async function get_data(stage) {
             <li>Tauiwi Latino techie living in Te Whanganui-a-Tara, Aotearoa (Wellington, New Zealand).</li>
             <li>
               Tech Lead at <a href="https://actionstation.org.nz/" target="external">ActionStation</a>,
-              Coordinator at <a href="https://christchurchcall.network/" target="external">CCAN</a>,
-              Trustee at <a href="https://migrantsaotearoa.org.nz/" target="external">Migrants Aotearoa</a>.
+              Coordinator at <a href="https://christchurchcall.network/" target="external">CCAN</a>.
             </li>
-            <li>Looking to collaborate on <strong>social impact projects</strong> and <strong>migrant support & rights</strong>.</li>
+            <li>Looking to work on <strong>social impact projects</strong>.</li>
             <li>I play guitar and percussion, speak Spanish, and like to snorkel, scuba dive and paddleboard.</li>
           </ul>
         `
@@ -175,6 +174,6 @@ export async function get_data(stage) {
         ].join('\n')
       }
     ],
-    footer: '© 2008-2021 Andrés Proaño Valencia. All rights reserved. 🦜'
+    footer: '© 2008-2022 Andrés Proaño Valencia. All rights reserved. 🦜'
   }
 }

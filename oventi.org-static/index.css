@@ -1,0 +1,207 @@
+@import "https://pagecdn.io/lib/normalize/8.0.1/normalize.min.css";
+@import "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css";
+@import "https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap";
+
+html {
+  font-family: sans-serif
+}
+
+a.devicon_link {
+  font-size: 3em;
+  text-decoration: none
+}
+
+a.devicon_link span {
+  clip: rect(0, 0, 0, 0) !important;
+  border: 0 !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  width: 1px !important
+}
+
+header,
+main {
+  max-width: 992px;
+  width: 90%
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1em auto
+}
+
+header .title_subtitle {
+  margin-bottom: 1em
+}
+
+header .title {
+  font-size: 1.5em;
+  margin: 0 0 1em;
+  text-align: center
+}
+
+header .subtitle {
+  margin: 0
+}
+
+header img.avatar {
+  border-radius: 50%;
+  margin: 0;
+  max-width: 150px
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto
+}
+
+main section {
+  flex: 100%
+}
+
+main section,
+main section h2 {
+  margin: 0 0 1em
+}
+
+footer {
+  margin: 0 1em 1em;
+  text-align: center
+}
+
+html {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300
+}
+
+a {
+  color: #778e46
+}
+
+a,
+h1,
+h2,
+h3 {
+  font-weight: 500
+}
+
+header {
+  margin: 1.5em auto 2em
+}
+
+header .title_subtitle {
+  margin-bottom: 2em
+}
+
+header h1.title {
+  font-size: 1.5em;
+  margin-bottom: .5em;
+  text-align: center
+}
+
+header p.subtitle {
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center
+}
+
+main section {
+  margin-bottom: 2em
+}
+
+main section h2 {
+  font-size: 1.25em
+}
+
+main section#about ul {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+main section#about ul li {
+  margin: 0 0 1em
+}
+
+main section#connect a.devicon_link {
+  font-size: 2em
+}
+
+footer {
+  margin-bottom: 1.5em
+}
+
+@media (min-width:576px) {
+  header {
+    margin: 2.5em auto 2em
+  }
+
+  header .title_subtitle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center
+  }
+
+  main section#about {
+    flex: 65%;
+    margin-right: 5%
+  }
+
+  main section#connect {
+    flex: 30%
+  }
+}
+
+@media (min-width:768px) {
+  header {
+    margin: 3.5em auto 2.5em
+  }
+
+  header .title_subtitle {
+    margin-bottom: 0
+  }
+
+  main section#about {
+    flex: 70%
+  }
+
+  main section#connect {
+    flex: 21%
+  }
+}
+
+@media (min-width:992px) {
+  header h1.title {
+    font-size: 2em
+  }
+
+  header p.subtitle {
+    font-size: 1.5em
+  }
+
+  main section {
+    font-size: 1.1em
+  }
+
+  main section#connect a.devicon_link {
+    font-size: 2.5em
+  }
+
+  main section#skills a.devicon_link {
+    font-size: 3.25em
+  }
+
+  footer {
+    font-size: 1.1em
+  }
+}

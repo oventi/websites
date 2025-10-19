@@ -1,5 +1,14 @@
 {
-  "dependencies": {
-    "localserver": "^0.1.4"
+  "name": "oventi-website",
+  "private": true,
+  "version": "0.0.2",
+  "description": "",
+  "scripts": {
+    "dev": "http-server",
+    "deploy": "surge --domain https://oventi.org ."
+  },
+  "author": "Andrés Proaño Valencia",
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }

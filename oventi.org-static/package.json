@@ -5,7 +5,7 @@
   "description": "",
   "scripts": {
     "dev": "http-server",
-    "deploy": "surge --domain https://oventi.org ."
+    "deploy": "surge --domain oventi.surge.sh ."
   },
   "author": "Andrés Proaño Valencia",
   "devDependencies": {

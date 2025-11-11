@@ -2152,6 +2152,7 @@ input[type="radio"]+label:before {
   position: relative;
 }
 
+/*
 .image:before {
   -moz-transition: opacity 0.2s ease-in-out;
   -webkit-transition: opacity 0.2s ease-in-out;
@@ -2168,11 +2169,13 @@ input[type="radio"]+label:before {
   top: 0;
   width: 100%;
 }
+*/
 
 .image.thumb {
   text-align: center;
 }
 
+/*
 .image.thumb:after {
   -moz-transition: opacity 0.2s ease-in-out;
   -webkit-transition: opacity 0.2s ease-in-out;
@@ -2196,7 +2199,9 @@ input[type="radio"]+label:before {
   top: 50%;
   white-space: nowrap;
 }
+*/
 
+/*
 .image.thumb:hover:after {
   opacity: 1.0;
 }
@@ -2205,6 +2210,7 @@ input[type="radio"]+label:before {
   background: url("images/overlay.png"), url("images/overlay.png");
   opacity: 1.0;
 }
+*/
 
 .image img {
   border-radius: 0.35em;

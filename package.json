@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev-mc": "DEV_SERVER_PORT=3000 DEV_SERVER_ROOT=./multiculturalcollective.nz/. dev-server"
+    "dev-mc": "DEV_SERVER_PORT=3000 DEV_SERVER_ROOT=./multiculturalcollective.nz/. dev-server",
+    "dev-oventi": "DEV_SERVER_PORT=3000 DEV_SERVER_ROOT=./oventi.org/. dev-server"
   },
   "dependencies": {
     "dev-server": "^0.2.0"

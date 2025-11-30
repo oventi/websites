@@ -1,505 +1,259 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
   <title>Multicultural Collective</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="assets/css/main.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <style>
+    body {
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    nav.navbar {
+      background-color: #7bb661;
+    }
+
+    nav.navbar nav a {
+      color: #fff;
+    }
+
+    nav.navbar nav a.active {
+      color: #7bb661;
+      background-color: #fff;
+      border-radius: 0.5em;
+    }
+    nav.navbar nav a.active:hover {
+      color: #7bb661;
+      background-color: #fff;
+    }
+
+    nav.navbar nav a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    #header {
+      overflow: hidden;
+    }
+
+    #header img {
+      position: relative;
+    }
+
+    #events a.register {
+      background-color: #7bb661;
+      border: 1px solid #000;
+    }
+
+    footer {
+      background-color: #7bb661;
+    }
+
+    @media (min-width: 576px) {
+      #header {
+        height: 30vh;
+      }
+
+      #header img {
+        top: -10vh;
+      }
+    }
+
+    @media (min-width: 768px) {
+      #header {
+        height: 40vh;
+      }
+
+      #header img {
+        top: -15vh;
+      }
+    }
+
+    @media (min-width: 992px) {
+      #header {
+        height: 50vh;
+      }
+
+      #header img {
+        top: -20vh;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      #header img {
+        top: -30vh;
+      }
+    }
+
+    @media (min-width: 1400px) {
+      #header img {
+        top: -50vh;
+      }
+    }
+  </style>
 </head>
 
-<body class="is-preload">
+<body>
 
-  <!-- Header -->
-  <header id="header">
-    <div class="inner">
-      <a href="#" class="image avatar"><img
-          src="https://images.opencollective.com/multicultural-collective/38450d2/logo/256.png" alt="" /></a>
-      <h1>
-        We organise events and projects<br>
-        with a direct impact to the community<br>
-        in Tawa and Porirua.
-      </h1>
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <h1 class="mb-0" style="font-size: 1em;">
+          <img src="https://images.opencollective.com/multicultural-collective/38450d2/logo/256.png" alt="" width="50"
+            class="d-inline-block align-text-middle">
+          Multicultural Collective
+        </h1>
+      </a>
+      <nav class="nav">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#events">Events</a>
+        <a class="nav-link active" href="https://opencollective.com/multicultural-collective/donate?interval=oneTime&amount=10">Donate</a>
+      </nav>
+      <div class="my-3">
+        <a href="mailto:kiaora@multiculturalcollective.nz" class="m-1" target="_social">
+          <img src="https://s.magecdn.com/social/tc-mail.svg" alt="Email" width="25" class="rounded" /></a>
+        <a href="https://www.instagram.com/multiculturalcollectivenz" class="m-1" target="_social">
+          <img src="https://s.magecdn.com/social/tc-instagram.svg" alt="Instagram" width="25" class="rounded" /></a>
+        <a href="https://www.linkedin.com/company/multiculturalcollective" class="m-1" target="_social">
+          <img src="https://s.magecdn.com/social/tc-linkedin.svg" alt="LinkedIn" width="25" class="rounded" /></a>
+        <a href="https://www.facebook.com/multiculturalcollective" class="m-1" target="_social">
+          <img src="https://s.magecdn.com/social/tc-facebook.svg" alt="Facebook" width="25" class="rounded" /></a>
+      </div>
     </div>
-  </header>
+  </nav>
 
-  <!-- Main -->
-  <div id="main">
-
-    <!-- One -->
-    <section id="one">
-      <header class="major">
-        <h2>Solidarity and social cohesion projects</h2>
-      </header>
-      <p>
-        Our vision is to foster multicultural and intersectional solidarity, increase social cohesion and
-        make a positive impact in the community. We carry our vision by organising small scale events and projects
-        involving people from different ethnic and cultural backgrounds and collaborating with multiple groups.
-        Our area of focus is Tawa and Porirua.
-      </p>
-      <!--
-      <ul class="actions">
-        <li><a href="#" class="button">Learn More</a></li>
-      </ul>
-      -->
-    </section>
-
-    <!-- Two -->
-    <section id="two">
-      <h2>Projects and events</h2>
-      <div class="row">
-
-        <article class="col-6 col-12-xsmall work-item">
-          <a class="image fit thumb"><img src="/images/mc_art_workshop_13dec.png" alt="" /></a>
-          <h3>13 Dec | $10 | Art Workshop: pot painting with Argentine designs</h3>
-          <p>
-            Paint a terracota pot, learn about Argentine motifs and enjoy. Led by Gisela Voltolini, a graphic
-            designer and artist. Originally from Argentina, she has been living in Porirua for over a decade.
-          </p>
-          <a href="https://opencollective.com/multicultural-collective/events/art-workshop-pot-painting-with-argentine-designs-65eb154b"
-            target="_external" class="button small">Register</a>
-        </article>
-
-        <article class="col-6 col-12-xsmall work-item">
-          <a class="image fit thumb"><img src="/images/sri_lankan_food.jpg" alt="" width="370" /></a>
-          <h3>14 Dec | Cooking Workshop: Sri Lankan food</h3>
-          <p>
-            Planning event. <a href="#three">Get in Touch</a> to pre-register.
-          </p>
-        </article>
-
-        <article class="col-6 col-12-xsmall work-item">
-          <a class="image fit thumb"><img src="/images/mc_te_tiriti_thumbnail.png" alt="" width="370" /></a>
-          <h3>27 Jan | Te Tiriti talk</h3>
-          <p>
-            Planning event. <a href="#three">Get in Touch</a> to pre-register.
-          </p>
-        </article>
-
-        <article class="col-6 col-12-xsmall work-item">
-          <a class="image fit thumb"><img src="/images/mc_migrant_women.png" alt="" width="370" /></a>
-          <h3>15 Feb | Migrant women meeting</h3>
-          <p>
-            Planning event. <a href="#three">Get in Touch</a> to pre-register.
-          </p>
-        </article>
-
-        <article class="col-6 col-12-xsmall work-item" style="opacity: 0.75;">
-          <a class="image fit thumb"><img src="/images/vietnamese_cooking_workshop.jpg" alt="" width="370" /></a>
-          <h3>22 Nov | FREE | Cooking Workshop: Vietnamese Bún bò Huế (Spicy Beef Noodle Soup)</h3>
-          <p>
-            Join a hands-on cultural cooking class led by Yung Nguyen — a passionate home cook, cultural storyteller,
-            and long-time facilitator of Viet Hub NZ's Cuisine Programme.
-          </p>
-          <a target="_external" class="button small">Past event</a>
-        </article>
-
+  <main>
+    <div class="container-fluid">
+      <div id="header" class="row">
+        <div class="col px-0">
+          <img src="/images/header.jpg" class="img-fluid" alt="" />
+        </div>
       </div>
-    </section>
+    </div>
 
-    <!-- Three -->
-    <section id="three">
-      <h2>Get In Touch</h2>
-      <p>
-        If you are interested in doing an event or collaborating on a project, send us an email. We are starting small
-        so can do a limited amount of events each month.
-      </p>
-      <div class="row">
-        <!--
-        <div class="col-8 col-12-small">
-          <form method="post" action="#">
-            <div class="row gtr-uniform gtr-50">
-              <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-              <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-              <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+    <div class="container">
+
+      <div id="about" class="row">
+        <div class="col-12 col-md-6 mt-3">
+          <h2 class="h4">Haere mai / Welcome</h2>
+          We organise projects and events that foster multicultural and intersectional solidarity, 
+          increase social cohesion and make a positive impact in the community. 
+          Our area of focus is Tawa and Porirua.
+        </div>
+        <div class="col-12 col-md-6 mt-3">
+          <h2 class="h4">Our priority project</h2>
+          <strong>Culture Share:</strong>
+          workshops and events to share culture, teach skills and meet people.
+        </div>
+      </div>
+
+      <div id="events" class="row mt-3">
+        <h2 class="h4">Upcoming events</h2>
+
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card border-0">
+              <img src="/images/mc_art_workshop_13dec.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h3 class="card-title h5">13 Dec | Art Workshop: pot painting with Argentine designs</h3>
+                <p class="card-text">
+                Paint a terracota pot, learn about Argentine motifs and enjoy. Led by Gisela
+                Voltolini, a graphic designer and artist.
+                </p>
+                <div class="d-grid gap-2">
+                  <a href="https://opencollective.com/multicultural-collective/events/art-workshop-pot-painting-with-argentine-designs-65eb154b" class="btn btn-primary register">Register</a>
+                </div>
+              </div>
             </div>
-          </form>
-          <ul class="actions">
-            <li><input type="submit" value="Send Message" /></li>
-          </ul>
-        </div>
-        -->
-        <div class="col-4 col-12-small">
-          <ul class="labeled-icons">
-            <!--li>
-              <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-              1234 Somewhere Rd.<br />
-              Nashville, TN 00000<br />
-              United States
-            </li-->
-            <!--li>
-              <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-              000-000-0000
-            </li-->
-            <li>
-              <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-              <a href="mailto:kiaora@multiculturalcollective.nz">kiaora@multiculturalcollective.nz</a>
-            </li>
-          </ul>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card border-0">
+              <img src="/images/sri_lankan_food.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h3 class="card-title h5">14 Dec | Cooking Workshop: Sri Lankan food</h3>
+                <p class="card-text">
+
+                </p>
+                <div class="d-grid gap-2">
+                  <a href="mailto:kiaora@multiculturalcollective.nz?subject=REGISTER%3A%2014%20Dec%20%7C%20Cooking%20Workshop%3A%20Sri%20Lankan%20food" class="btn btn-primary register">Register</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card border-0">
+              <img src="/images/mc_te_tiriti_thumbnail.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h3 class="card-title h5">27 Jan | Te Tiriti talk</h3>
+                <p class="card-text"></p>
+                <div class="d-grid gap-2">
+                  <a href="mailto:kiaora@multiculturalcollective.nz?subject=REGISTER%3A%2027%20Jan%20%7C%20Te%20Tiriti%20talk" class="btn btn-primary register">Register</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card border-0">
+              <img src="/images/mc_migrant_women.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h3 class="card-title h5">15 Feb | Migrant women hui</h3>
+                <p class="card-text">
+
+                </p>
+                <div class="d-grid gap-2">
+                  <a href="mailto:kiaora@multiculturalcollective.nz?subject=REGISTER%3A%2015%20Feb%20%7C%20Migrant%20women%20hui" class="btn btn-primary register">Register</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </main>
 
-    <!-- Four -->
-    <!--
-					<section id="four">
-						<h2>Elements</h2>
-
-						<section>
-							<h4>Text</h4>
-							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-							<hr />
-							<header>
-								<h4>Heading with a Subtitle</h4>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<header>
-								<h5>Heading with a Subtitle</h5>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<hr />
-							<h2>Heading Level 2</h2>
-							<h3>Heading Level 3</h3>
-							<h4>Heading Level 4</h4>
-							<h5>Heading Level 5</h5>
-							<h6>Heading Level 6</h6>
-							<hr />
-							<h5>Blockquote</h5>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-							<h5>Preformatted</h5>
-							<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-						</section>
-
-						<section>
-							<h4>Lists</h4>
-							<div class="row">
-								<div class="col-6 col-12-xsmall">
-									<h5>Unordered</h5>
-									<ul>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-									<h5>Alternate</h5>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-xsmall">
-									<h5>Ordered</h5>
-									<ol>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ol>
-									<h5>Icons</h5>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-									</ul>
-								</div>
-							</div>
-							<h5>Actions</h5>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Default</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions small">
-								<li><a href="#" class="button primary small">Small</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<div class="row">
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small">Small</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary fit">Default</a></li>
-										<li><a href="#" class="button fit">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small fit">Small</a></li>
-										<li><a href="#" class="button small fit">Small</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-
-						<section>
-							<h4>Table</h4>
-							<h5>Default</h5>
-							<div class="table-wrapper">
-								<table>
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-
-							<h5>Alternate</h5>
-							<div class="table-wrapper">
-								<table class="alt">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-
-						<section>
-							<h4>Buttons</h4>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Primary</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button large">Large</a></li>
-								<li><a href="#" class="button">Default</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<ul class="actions fit">
-								<li><a href="#" class="button primary fit">Fit</a></li>
-								<li><a href="#" class="button fit">Fit</a></li>
-							</ul>
-							<ul class="actions fit small">
-								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-								<li><a href="#" class="button fit small">Fit + Small</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-							</ul>
-							<ul class="actions">
-								<li><span class="button primary disabled">Primary</span></li>
-								<li><span class="button disabled">Default</span></li>
-							</ul>
-						</section>
-
-						<section>
-							<h4>Form</h4>
-							<form method="post" action="#">
-								<div class="row gtr-uniform gtr-50">
-									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<div class="col-12">
-										<select name="demo-category" id="demo-category">
-											<option value="">- Category -</option>
-											<option value="1">Manufacturing</option>
-											<option value="1">Shipping</option>
-											<option value="1">Administration</option>
-											<option value="1">Human Resources</option>
-										</select>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-										<label for="demo-priority-low">Low Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-normal" name="demo-priority">
-										<label for="demo-priority-normal">Normal Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-high" name="demo-priority">
-										<label for="demo-priority-high">High Priority</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-copy" name="demo-copy">
-										<label for="demo-copy">Email me a copy of this message</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">I am a human and not a robot</label>
-									</div>
-									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
-
-						<section>
-							<h4>Image</h4>
-							<h5>Fit</h5>
-							<div class="box alt">
-								<div class="row gtr-50 gtr-uniform">
-									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-								</div>
-							</div>
-							<h5>Left &amp; Right</h5>
-							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						</section>
-
-					</section>
-				-->
-
-  </div>
-
-  <!-- Footer -->
-  <footer id="footer">
-    <div class="inner">
-      <ul class="icons">
-        <li>
-          <a href="https://www.instagram.com/multiculturalcollectivenz" class="icon brands fa-instagram">
-            <span class="label">Instagram</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://nz.linkedin.com/company/multicultural-collective" class="icon brands fa-linkedin">
-            <span class="label">LinkedIn</span>
-          </a>
-        </li>
-        <li>
-          <a href="mailto:kiaora@multiculturalcollective.nz" class="icon solid fa-envelope"><span
-              class="label">Email</span></a>
-        </li>
-      </ul>
-      <ul class="copyright">
-        <li>&copy; <a href="https://opencollective.com/multicultural-collective" target="_external">Multicultural
-            Collective</a></li>
-        <li>Design: <a href="http://html5up.net" target="_external">HTML5 UP</a></li>
-      </ul>
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-auto me-auto py-3">
+            &copy; Multicultural Collective 2025.
+        </div>
+        <div class="col-auto me-auto py-3">
+          kiaora@multiculturalcollective.nz
+        </div>
+        <div class="col-auto py-3">
+            <span>
+              <a href="mailto:kiaora@multiculturalcollective.nz" class="m-1" target="_social">
+                <img src="https://s.magecdn.com/social/tc-mail.svg" alt="Email" width="25" class="rounded" /></a>
+              <a href="https://www.instagram.com/multiculturalcollectivenz" class="m-1" target="_social">
+                <img src="https://s.magecdn.com/social/tc-instagram.svg" alt="Instagram" width="25" class="rounded" /></a>
+              <a href="https://www.linkedin.com/company/multiculturalcollective" class="m-1" target="_social">
+                <img src="https://s.magecdn.com/social/tc-linkedin.svg" alt="LinkedIn" width="25" class="rounded" /></a>
+              <a href="https://www.facebook.com/multiculturalcollective" class="m-1" target="_social">
+                <img src="https://s.magecdn.com/social/tc-facebook.svg" alt="Facebook" width="25" class="rounded" /></a>
+            </span>
+        </div>
+      </div>
     </div>
   </footer>
 
-  <!-- Scripts -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.poptrox.min.js"></script>
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

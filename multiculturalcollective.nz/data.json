@@ -9,16 +9,20 @@
 
     "events": [
         {
-            "image_url": "https://placehold.co/370x217/008000/FFF?text=Ghanaian food"
+            "image_url": "https://placehold.co/370x217/008000/FFF?text=Ghanaian food",
+            "title": "17 Jan | Cooking Workshop: Ghanaian fufu and egusi sauce"
         },
         {
-            "image_url": "https://placehold.co/370x217/008000/FFF?text=Te Tiriti"
+            "image_url": "https://placehold.co/370x217/008000/FFF?text=Te Tiriti",
+            "title": "27 Jan | Intro to Te Tiriti and history"
         },
         {
-            "image_url": "https://placehold.co/370x217/008000/FFF?text=Women"
+            "image_url": "https://placehold.co/370x217/008000/FFF?text=Women",
+            "title": "14 Feb | Multicultural women hui"
         },
         {
-            "image_url": "https://placehold.co/370x217/008000/FFF?text=Block painting"
+            "image_url": "https://placehold.co/370x217/008000/FFF?text=Block painting",
+            "title": "08 Mar | Block painting workshop"
         }
     ]
 }

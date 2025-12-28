@@ -5,5 +5,20 @@
         "sit": {
             "amet": "!"
         }
-    }
+    },
+
+    "events": [
+        {
+            "image_url": "https://placehold.co/370x217/008000/FFF?text=Ghanaian food"
+        },
+        {
+            "image_url": "https://placehold.co/370x217/008000/FFF?text=Te Tiriti"
+        },
+        {
+            "image_url": "https://placehold.co/370x217/008000/FFF?text=Women"
+        },
+        {
+            "image_url": "https://placehold.co/370x217/008000/FFF?text=Block painting"
+        }
+    ]
 }

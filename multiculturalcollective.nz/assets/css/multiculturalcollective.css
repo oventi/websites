@@ -9,12 +9,14 @@
     }
 
     nav.navbar nav a {
-      color: #008000;
+      color: #758737;
+      text-transform: uppercase;
+      font-size: 1.25em;
     }
 
     nav.navbar nav a.active {
       color: #fff;
-      background-color: #008000;
+      background-color: #758737;
       border-radius: 0.5em;
     }
     nav.navbar nav a.active:hover {
@@ -22,65 +24,57 @@
     }
 
     nav.navbar nav a:hover {
-      color: #008000;
+      color: #758737;
       text-decoration: underline;
     }
 
     #header {
+      border-top: 5px solid #758737;
       overflow: hidden;
     }
 
     #header img {
       position: relative;
+      height: auto;
+      max-width: 200%;
+      left: -50%;
     }
 
     #events a.register {
-      background-color: #7bb661;
-      border: 1px solid #000;
+      background-color: #758737;
+      border: 1px solid #758737;
     }
 
     footer {
-      background-color: #7bb661;
+      background-color: #fff;
+      border-bottom: 10px solid #758737;
     }
 
     @media (min-width: 576px) {
-      #header {
-        height: 30vh;
-      }
-
       #header img {
-        top: -10vh;
       }
     }
 
     @media (min-width: 768px) {
-      #header {
-        height: 40vh;
-      }
-
       #header img {
-        top: -15vh;
+        max-width: 120%;
+        left: -12%;
       }
     }
 
     @media (min-width: 992px) {
-      #header {
-        height: 50vh;
-      }
-
-      #header img {
-        top: -20vh;
+      #header img {    
       }
     }
 
     @media (min-width: 1200px) {
       #header img {
-        top: -30vh;
+        max-width: 100%;
+        left: 0%;
       }
     }
 
     @media (min-width: 1400px) {
       #header img {
-        top: -50vh;
       }
     }

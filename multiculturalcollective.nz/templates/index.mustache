@@ -56,36 +56,19 @@
           -->
 
           {{#events}}
-          <div class="col-12 col-sm-6 col-md-4">
+          <div class="col-12 col-sm-6 col-xl-3 mb-2">
             <div class="card border-0">
               <img src="{{image_url}}" class="card-img-top" alt="">
-              <div class="card-body">
+              <div class="card-body px-0 py-3">
                 <h3 class="card-title h5">{{title}}</h3>
-                <p class="card-text"></p>
+                <p class="card-subtitle mb-2 text-body-secondary">{{sub_title}}</p>
                 <div class="d-grid gap-2">
-                  <a href="mailto:kiaora@multiculturalcollective.nz?subject=REGISTER%3A%2027%20Jan%20%7C%20Te%20Tiriti%20talk" class="btn btn-primary register">Register</a>
+                  <a href="{{action.link}}" class="btn btn-primary register">{{action.text}}</a>
                 </div>
               </div>
             </div>
           </div>
           {{/events}}
-
-          <!--
-          <div class="col-12 col-sm-6 col-md-4">
-            <div class="card border-0">
-              <img src="/images/mc_migrant_women.png" class="card-img-top" alt="">
-              <div class="card-body">
-                <h3 class="card-title h5">15 Feb | Migrant women hui</h3>
-                <p class="card-text">
-
-                </p>
-                <div class="d-grid gap-2">
-                  <a href="mailto:kiaora@multiculturalcollective.nz?subject=REGISTER%3A%2015%20Feb%20%7C%20Migrant%20women%20hui" class="btn btn-primary register">Register</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          -->
 
         </div>
       </div>

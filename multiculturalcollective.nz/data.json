@@ -9,20 +9,36 @@
 
     "events": [
         {
-            "image_url": "https://placehold.co/370x217/008000/FFF?text=Ghanaian food",
-            "title": "17 Jan | Cooking Workshop: Ghanaian fufu and egusi sauce"
+            "image_url": "/images/mc-event-thumbnail-maudrick.jpg",
+            "title": "Ghanaian food cooking",
+            "sub_title": "17 Jan, 12:30pm | Pātaka Art + Museum",
+            "action": {
+                "text": "Buy $5 ticket", "link": "https://tiny.cc/fufu2026"
+            }
         },
         {
-            "image_url": "https://placehold.co/370x217/008000/FFF?text=Te Tiriti",
-            "title": "27 Jan | Intro to Te Tiriti and history"
+            "image_url": "/images/mc-event-thumbnail-te-tiriti.jpg",
+            "title": "Intro to Te Tiriti and history",
+            "sub_title": "27 Jan, 6pm | Porirua City Hub",
+            "action": {
+                "text": "Registrations will open soon", "link": "#events"
+            }
         },
         {
-            "image_url": "https://placehold.co/370x217/008000/FFF?text=Women",
-            "title": "14 Feb | Multicultural women hui"
+            "image_url": "/images/mc-event-thumbnail-women.jpg",
+            "title": "Multicultural women hui",
+            "sub_title": "14 Feb, 9am | Porirua City Hub",
+            "action": {
+                "text": "Registrations will open soon", "link": "#events"
+            }
         },
         {
-            "image_url": "https://placehold.co/370x217/008000/FFF?text=Block painting",
-            "title": "08 Mar | Block painting workshop"
+            "image_url": "/images/mc-event-thumbnail-seema.jpg",
+            "title": "Block painting",
+            "sub_title": "08 Mar, 11am | Aotea, Porirua",
+            "action": {
+                "text": "Registrations will open soon", "link": "#events"
+            }
         }
     ]
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-TS=$(date +%Y%m%d)
+#TS=$(date +%Y%m%d)
 #mv ./multiculturalcollective.nz/index.html "./multiculturalcollective.nz/archive/index_$TS.html"
 
 yarn -s mustache \

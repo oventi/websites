@@ -45,7 +45,16 @@ nav.navbar nav a:hover {
   left: -50%;
 }
 
+#about {
+  background-color: #084439;
+  color: #fff;
+}
+
 /* events */
+
+#events h2 {
+  color: #758737;
+}
 
 #events a.register {
   background-color: #758737;

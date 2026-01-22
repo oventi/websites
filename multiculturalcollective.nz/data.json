@@ -1,21 +1,6 @@
 {
-    "lorem": "hello",
-    "ipsum": {
-        "dolor": "world",
-        "sit": {
-            "amet": "!"
-        }
-    },
 
     "events": [
-        {
-            "image_url": "/images/mc-event-thumbnail-maudrick.jpg",
-            "title": "Ghanaian food cooking",
-            "sub_title": "17 Jan, 12:30pm | Pātaka Art + Museum",
-            "action": {
-                "text": "Buy $5 ticket", "link": "https://tiny.cc/fufu2026"
-            }
-        },
         {
             "image_url": "/images/mc-event-thumbnail-te-tiriti.jpg",
             "title": "Intro to Te Tiriti and history",
@@ -35,10 +20,22 @@
         {
             "image_url": "/images/mc-event-thumbnail-seema.jpg",
             "title": "Block painting",
-            "sub_title": "08 Mar, 11am | Aotea, Porirua",
+            "sub_title": "Mar | Aotea, Porirua",
             "action": {
                 "text": "Registrations will open soon", "link": "#events"
             }
         }
+    ],
+
+    "past_events": [
+        {
+            "image_url": "/images/mc-event-thumbnail-maudrick.jpg",
+            "title": "Ghanaian food cooking",
+            "sub_title": "17 Jan, 12:30pm | Pātaka Art + Museum",
+            "action": {
+                "text": "Buy $5 ticket", "link": "https://tiny.cc/fufu2026"
+            }
+        }
     ]
+
 }

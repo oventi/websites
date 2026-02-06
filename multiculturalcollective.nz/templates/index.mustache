@@ -50,6 +50,26 @@
 
         </div>
       </div>
+
+      <div id="past_events" class="row mt-4">
+        <h2 class="h4">Past events</h2>
+
+        <div class="row mt-3">
+
+          {{#past_events}}
+          <div class="col-12 col-sm-6 col-xl-3 mb-2">
+            <div class="card border-0">
+              <img src="{{image_url}}" class="card-img-top" alt="">
+              <div class="card-body px-0 py-3">
+                <h3 class="card-title h5">{{title}}</h3>
+                <p class="card-subtitle mb-2 text-body-secondary">{{sub_title}}</p>
+              </div>
+            </div>
+          </div>
+          {{/past_events}}
+
+        </div>
+      </div>
     </div>
   </main>
 

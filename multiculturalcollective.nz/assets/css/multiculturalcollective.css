@@ -52,7 +52,7 @@ nav.navbar nav a:hover {
 
 /* events */
 
-#events h2 {
+#events h2, #past_events h2 {
   color: #758737;
 }
 

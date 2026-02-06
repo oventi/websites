@@ -29,21 +29,19 @@
 
     "past_events": [
         {
-            "image_url": "/images/mc-event-thumbnail-maudrick.jpg",
-            "title": "Ghanaian food cooking",
-            "sub_title": "17 Jan, 12:30pm | Pātaka Art + Museum",
-            "action": {
-                "text": "Buy $5 ticket", "link": "https://tiny.cc/fufu2026"
-            }
-        },
-        {
             "image_url": "/images/mc-event-thumbnail-te-tiriti.jpg",
             "title": "Intro to Te Tiriti and history",
-            "sub_title": "[FREE] 27 Jan, 6pm | Porirua City Hub",
-            "action": {
-                "text": "Register for free", "link": "https://tiny.cc/tetiriti1"
-            }
+            "sub_title": "27 Jan, 6pm | Porirua City Hub"
+        },
+        {
+            "image_url": "/images/mc-event-thumbnail-maudrick.jpg",
+            "title": "Ghanaian food cooking",
+            "sub_title": "17 Jan, 12:30pm | Pātaka Art + Museum"
+        },
+        {
+            "image_url": "/images/mc-event-thumbnail-maudrick.jpg",
+            "title": "Ghanaian food cooking",
+            "sub_title": "17 Jan, 12:30pm | Pātaka Art + Museum"
         }
     ]
-
 }

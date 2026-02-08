@@ -42,6 +42,16 @@
             "image_url": "/images/mc-event-thumbnail-sri-lankan.jpg",
             "title": "Sri Lankan food cooking",
             "sub_title": "14 Dec, 11am | The Beer Engine"
+        },
+        {
+            "image_url": "/images/mc-event-thumbnail-pot.png",
+            "title": "Terracota pot painting",
+            "sub_title": "13 Dec, 2pm | Porirua City Hub"
+        },
+        {
+            "image_url": "/images/mc-event-thumbnail-pot.png",
+            "title": "Vietnamese food cooking",
+            "sub_title": "22 Nov, 10am | Tawa Union Church"
         }
     ]
 }

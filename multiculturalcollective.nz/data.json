@@ -2,14 +2,6 @@
 
     "events": [
         {
-            "image_url": "/images/mc-event-thumbnail-women.jpg",
-            "title": "Multicultural women hui",
-            "sub_title": "[FREE] 14 Feb, 9am | Porirua City Hub",
-            "action": {
-                "text": "Register for free", "link": "https://tiny.cc/women2026"
-            }
-        },
-        {
             "image_url": "/images/mc-event-porirua-lny.png",
             "title": "Porirua Lunar New Year",
             "sub_title": "[FREE] 21 Feb, 2pm | Aotea Lagoon",
@@ -28,6 +20,11 @@
     ],
 
     "past_events": [
+        {
+            "image_url": "/images/mc-event-thumbnail-women.jpg",
+            "title": "Multicultural women hui",
+            "sub_title": "14 Feb, 9am | Porirua City"
+        },
         {
             "image_url": "/images/mc-event-thumbnail-te-tiriti.jpg",
             "title": "Intro to Te Tiriti and history",

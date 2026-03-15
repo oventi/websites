@@ -7,12 +7,15 @@
         </h1>
       </a>
       <nav class="nav">
-        {{#header.navbar}}
-        <a class="nav-link" href="{{href}}">{{title}}</a>
-        {{/header.navbar}}
+        {{#navbar}}
+        <a class="nav-link" href="{{{href}}}">{{title}}</a>
+        {{/navbar}}
       </nav>
       <div class="my-3">
-        {{> social}}
+        {{#socials}}
+        <a href="{{{href}}}" class="m-1" target="_social">
+          <img src="https://s.magecdn.com/social/tc-{{name}}.svg" alt="{{title}}" width="30" class="rounded" /></a>
+        {{/socials}}
       </div>
     </div>
   </nav>

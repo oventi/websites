@@ -13,22 +13,22 @@ nav.navbar {
 nav.navbar nav a {
   color: #758737;
   text-transform: uppercase;
-  font-size: 1.25em;
-}
-
-nav.navbar nav a.active {
-  color: #fff;
-  background-color: #758737;
-  border-radius: 0.5em;
-}
-
-nav.navbar nav a.active:hover {
-  color: #fff;
+  font-size: 1em;
 }
 
 nav.navbar nav a:hover {
   color: #758737;
   text-decoration: underline;
+}
+
+nav.navbar nav a:last-child {
+  color: #fff;
+  background-color: #758737;
+  border-radius: 0.5em;
+}
+
+nav.navbar nav a:last-child:hover {
+  color: #fff;
 }
 
 /* header */
@@ -50,13 +50,19 @@ nav.navbar nav a:hover {
   color: #fff;
 }
 
-/* events */
+/* sections */
 
-#events h2, #past_events h2 {
+section > h2.title {
   color: #758737;
 }
 
-#events a.register {
+section .cards {}
+
+section .cards .card img {
+  height: 11.25rem;
+}
+
+section .cards .card a.register {
   background-color: #758737;
   border: 1px solid #758737;
 }
@@ -91,6 +97,10 @@ footer a {
 }
 
 @media (min-width: 992px) {
+  nav.navbar nav a {
+    font-size: 1.25em;
+  }
+
   #header img {    
   }
 }

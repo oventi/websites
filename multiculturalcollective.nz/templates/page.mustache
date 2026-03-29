@@ -36,28 +36,30 @@
     <div class="container">
 
       {{#page.sections}}
-      <div id="{{name}}" class="row mt-4">
+      <section id="{{name}}" class="section row mt-3">
         {{#title}}
-        <h2 class="h4">{{title}}</h2>
+        <h2 class="title h4 mb-3">{{title}}</h2>
         {{/title}}
         {{#description}}
-        <div class="col-12 text-center">{{{description}}}</div>
+        <div class="description col-12">{{{description}}}</div>
         {{/description}}
         {{#cards}}
-        <div class="col-12 col-sm-6 col-xl-3 mb-2">
+        <div class="cards col-12 col-sm-6 col-xl-3 mb-2">
           <div class="card border-0">
-            <img src="{{{src}}}" class="card-img-top" alt="{{alt}}">
+            <img src="{{{image.src}}}" class="card-img-top" alt="{{image.alt}}">
             <div class="card-body px-0 py-3">
               <h3 class="card-title h5">{{title}}</h3>
               <p class="card-subtitle mb-2 text-body-secondary">{{description}}</p>
+              {{#action}}
               <div class="d-grid gap-2">
                 <a href="{{action.href}}" class="btn btn-primary register">{{action.title}}</a>
               </div>
+              {{/action}}
             </div>
           </div>
         </div>
         {{/cards}}
-      </div>
+      </section>
       {{/page.sections}}
 
     </div>

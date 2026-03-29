@@ -7,13 +7,13 @@ const token = 'ZYAfn9ZV0g1tVewgsFVAXQtt'
 
 ;(async () => {
     // fetch data //////////////////////////////////////////////////
-    const request = await fetch(`${endpoint}/stories/multiculturalcollective-nz?token=${token}&version=published`)
-    const { story: site } = await request.json()
+    const request = await fetch(`${endpoint}/stories/multiculturalcollective-nz?token=${token}&version=published&resolve_relations=section.cards`)
+    const {story: site, rels} = await request.json()
+    // console.log(JSON.stringify({site, rels}))
 
     // parse data //////////////////////////////////////////////////
 
-    const data = siteParser(site)
-    console.dir(data, {depth:null})
+    const data = siteParser(site, rels)
 
     // build pages /////////////////////////////////////////////////
 
@@ -21,7 +21,7 @@ const token = 'ZYAfn9ZV0g1tVewgsFVAXQtt'
         page: fs.readFileSync('templates/page.mustache', 'utf8'),
         header: fs.readFileSync('templates/header.mustache', 'utf8'),
         nav: fs.readFileSync('templates/nav.mustache', 'utf8'),
-        social: fs.readFileSync('templates/social.mustache', 'utf8')
+        footer: fs.readFileSync('templates/footer.mustache', 'utf8')
     }
 
     for(const page of data.pages) {

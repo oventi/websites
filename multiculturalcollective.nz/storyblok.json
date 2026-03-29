@@ -1,0 +1,43 @@
+{
+  "header": {
+    "logo": {
+      "id": 155067323471623,
+      "alt": "Multicultural Collective",
+      "src": "https://a.storyblok.com/f/291166154506918/6232x2000/d9e46e3b42/mc-brand-logo-2026.png"
+    },
+    "navbar": [
+      {
+        "id": "8615269d-f3da-45ab-a883-bc85e5cf476f",
+        "name": "home",
+        "title": "Home",
+        "href": "/"
+      }
+    ],
+    "socials": [
+      {
+        "id": "5377601a-0324-47a5-a99e-0201c9e0e638",
+        "name": "email",
+        "title": "E-mail",
+        "href": "mailto:kiaora@multiculturalcollective.nz"
+      },
+      {
+        "id": "b3ce1035-de2e-4d89-9eb1-db8fea8358ef",
+        "name": "instagram",
+        "title": "Instagram",
+        "href": "https://www.instagram.com/multiculturalcollectivenz"
+      },
+      {
+        "id": "a9a65a7b-2e23-46a1-9547-350b06572703",
+        "name": "linkedin",
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/company/multiculturalcollectivenz"
+      },
+      {
+        "id": "4c935b5b-835f-4581-a5fc-4ad05c18e332",
+        "name": "facebook",
+        "title": "Facebook",
+        "href": "https://www.facebook.com/multiculturalcollectivenz"
+      }
+    ]
+  }
+}
